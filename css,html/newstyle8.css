@@ -1,0 +1,82 @@
+body{
+    background: rgb(253,45,45);
+    background: linear-gradient(0deg, rgba(253,45,45,0.5158438375350141) 0%, rgba(58,71,179,0.15449929971988796) 50%, rgba(253,45,45,0.4990371148459384) 100%);
+
+}
+
+.pagrindinis {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.dugale{
+    display: flex;
+}
+
+div{
+    display: flex;
+}
+
+.pagrindinis2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px;
+}
+
+.pagrindinis3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.pagrindinis4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagrindinis5 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #62ee41;
+    margin: 2px;
+    -webkit-box-shadow: 32px 32px 25px -33px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 32px 32px 25px -33px rgba(0, 0, 0, 0.22);
+    box-shadow: 32px 32px 25px -33px rgba(0, 0, 0, 0.22);
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: #eecb41;
+    margin: 2px;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: #ee4141;
+    margin: 2px;
+}
+
+.box4 {
+    height: 200px;
+    width: 200px;
+    background-color: #bd41ee;
+    margin: 2px;
+}
+
+.box5 {
+    height: 200px;
+    width: 200px;
+    background-color: #41eeb1;
+    margin: 2px;
+}

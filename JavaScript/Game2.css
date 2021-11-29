@@ -1,0 +1,40 @@
+body {
+    padding: 50px;
+    font-family: monospace;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+}
+
+.grow1 {
+    flex: 1;
+}
+
+.item {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.selected {
+    border: 2px solid #acf159;
+}
+
+.item p {
+    pointer-events: none;
+    font-size: 25px;
+}
+
+.item i {
+    pointer-events: none;
+    font-size: 40px;
+}

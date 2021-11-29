@@ -1,0 +1,599 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8d3ca;
+}
+
+.container {
+    height: 930px;
+    width: 1000px;
+    background-color: white;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 10% 50% 50% ;
+    grid-template-areas:
+    "toolbar toolbar"
+    "header header"
+    "main header";
+    border-radius: 30px;
+}
+
+
+.toolbar {
+    grid-area: toolbar;
+    margin-inline: 20px;
+    border-collapse: collapse;
+}
+
+.header {
+    grid-area: header;
+
+}
+
+.main {
+    grid-area: main;
+
+}
+
+
+
+
+
+.div1 {
+    height: 233px;
+    width: 210px;
+    background-image: url("https://edusteps.com.ua/uploads/posts/2015-04/1428354462_1322445521-main-image-paul-tierney-1000x763.jpg");
+    margin: 10px;
+    background-size: 170%;
+    border-radius: 30px;
+    object-fit: cover;
+    float: right;
+}
+
+.div11 {
+    height: 40px;
+    width: 85px;
+    margin: 0px;
+    float: right;
+    background-color: red;
+    opacity: 50%;
+    border-radius: 1px 36px 0px 49px;
+    color: white;
+}
+
+.div11 >h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.div111 {
+    height: 40px;
+    width: 200px;
+    margin: 5px;
+    opacity: 90%;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    margin-top: 170px;
+    box-shadow: 0 0 1rem 0 rgba(41, 39, 39, 0.2);
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div111:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(241, 241, 241, 0.5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+
+
+
+
+
+
+.div2 {
+    height: 233px;
+    width: 210px;
+    background-image: url("https://q.bstatic.com/images/hotel/max1024x768/134/134522422.jpg ");
+    margin: 10px;
+    background-size: 148%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.div22 {
+    height: 40px;
+    width: 85px;
+    margin: 0px;
+    float: right;
+    background-color: red;
+    opacity: 50%;
+    border-radius: 1px 36px 0px 49px;
+    color: white;
+}
+
+.div22 >h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.div222 {
+    height: 40px;
+    width: 200px;
+    margin: 5px;
+    opacity: 90%;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    margin-top: 170px;
+    box-shadow: 0 0 1rem 0 rgba(41, 39, 39, 0.2);
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div222:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(241, 241, 241, 0.5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+
+.div3 {
+    height: 145px;
+    width: 210px;
+    background-image: url("https://archello.s3.eu-central-1.amazonaws.com/images/2011/11/11/DJH-BG-110909-4854-Westansicht-20Nacht-0.1506493524.668.jpg");
+    margin: 10px;
+    background-size: 110%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.div4 {
+    height: 130px;
+    width: 100px;
+    background-image: url("https://architizer-prod.imgix.net/media/1464591403268_DMS9515.jpg");
+    margin: 10px;
+    background-size: 195%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.div5 {
+    height: 130px;
+    width: 100px;
+    background-image: url("https://i.archi.ru/i/203532.jpg");
+    margin: 10px;
+    background-size: 195%;
+    border-radius: 30px;
+    object-fit: cover;
+
+}
+
+.top1{
+    border:1px ridge ;
+    margin: 5px;
+}
+
+
+.mt--5 {
+    margin-top: 32px;
+
+}
+
+.h5c{
+    margin: 3px;
+}
+
+
+
+
+
+.f-column {
+    flex-direction: column;
+}
+
+
+.d-felx {
+    display: flex;
+}
+
+.j-centr{
+    justify-content: center;
+}
+
+.jceve {
+    justify-content: space-evenly;
+}
+
+.jc-bet {
+    justify-content: space-between;
+}
+
+.align-baseline{
+    align-items: baseline;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.m10 {
+    margin: 10px;
+}
+.m-t10 {
+    margin-top: 100px;
+}
+.p-50 {
+    padding: 50px;
+}
+.p-30 {
+    padding: 30px;
+}
+
+.p-t100 {
+    padding-top: 100px;
+}
+
+.p-t10 {
+    padding-top: 10px;
+}
+
+.p-l50 {
+    padding-left: 50px;
+}
+
+.p-r50 {
+    padding-right: 50px;
+}
+
+.m-10{
+    margin-inline: -10px;
+}
+
+.cf {
+    color: #820ca1;
+}
+
+h1,h2,h3,h4,h,h6{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.img1{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.f-faml {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.second-grid {
+    margin-left: 25px;
+    width: 950px;
+    height: 400px;
+    background-image: url("https://w-dog.ru/wallpapers/9/16/399332228390766/ssha-shtata-vajoming-grand-titon-nacionalnyj-park-gora-moran-ozero-dzhekson-priroda-leto-utro-les-otrazheniya.jpg") ;
+    background-size: 100%;
+    border-radius: 50px;
+}
+
+.second-grid > div > h2  {
+    margin: -1px;
+    margin-left: 20px;
+}
+
+
+
+
+/*KNOPKE */
+
+/*} ?????????*/
+/*.wrapper{*/
+/*    display: inline-flex;*/
+/*    background: #fff;*/
+/*    height: 100px;*/
+/*    width: 400px;*/
+/*    align-items: center;*/
+/*    justify-content: space-evenly;*/
+/*    border-radius: 5px;*/
+/*    padding: 20px 15px;*/
+/*    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);*/
+/*}*/
+
+/*admin*/
+.wrapper .option{
+    background: #fff;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 10px;
+    border: 2px solid lightgrey;
+    /*transition: all 0.3s ease;*/
+}
+.wrapper .option .dot{
+    height: 20px;
+    width: 20px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+}
+.wrapper .option .dot::before{
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    background: #0069d9;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(1.5);
+    transition: all 0.3s ease;
+}
+input[type="radio"]{
+    display: none;
+}
+#option-1:checked:checked ~ .option-1,
+#option-2:checked:checked ~ .option-2{
+    border-color: #0069d9;
+    background: #0069d9;
+}
+#option-1:checked:checked ~ .option-1 .dot,
+#option-2:checked:checked ~ .option-2 .dot{
+    background: #fff;
+}
+#option-1:checked:checked ~ .option-1 .dot::before,
+#option-2:checked:checked ~ .option-2 .dot::before{
+    opacity: 1;
+    transform: scale(1);
+}
+.wrapper .option span{
+    font-size: 20px;
+    color: #808080;
+}
+#option-1:checked:checked ~ .option-1 span,
+#option-2:checked:checked ~ .option-2 span{
+    color: #fff;
+}
+
+
+
+
+
+/*toolbar virsus*/
+ul {
+    list-style: none;
+}
+
+.topmenu {
+    background: white;
+}
+
+.topmenu a {
+    text-decoration: none;
+    display: block;
+    transition: .4s ease-in-out;
+}
+
+.topmenu>li>a {
+    padding: 10px;
+    color: #767676;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.topmenu li a:hover {
+    color: #c0a97a;
+}
+
+.submenu li a {
+    border-bottom: 1px solid #efefef;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media(max-width:599px) {
+    .topmenu>li>a {
+        padding: 15px 20px;
+    }
+    .submenu li a {
+        padding: 10px 20px;
+        margin: 0 20px;
+    }
+}
+
+@media(min-width: 600px) {
+    .topmenu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .topmenu>li {
+        position: relative;
+    }
+    .topmenu>li:after {
+        position: absolute;
+        right: 0;
+        width: 1px;
+        height: 12px;
+        background: #d2d2d2;
+        top: 24px;
+        box-shadow: 4px -2px 0 #d2d2d2;
+        transform: rotate(30deg);
+    }
+    .topmenu>li:last-child:after {
+        background: none;
+        box-shadow: none;
+    }
+    .submenu {
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        width: 210px;
+        margin-left: -105px;
+        background: #fafafa;
+        border: 1px solid #ededed;
+        z-index: 3;
+        visibility: hidden;
+        opacity: 0;
+        transform: scale(.8);
+        transition: .4s ease-in-out;
+    }
+    .topmenu>li:hover .submenu {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+    .submenu li a {
+        text-align: center;
+        padding: 10px 0;
+        margin: 0 10px;
+        margin-right: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SEARCH*/
+* {box-sizing: border-box;}
+form {
+    width: auto;
+    /*float: right;*/
+    /*margin-right: 30px;*/
+    padding-top: 110px;
+}
+input {
+    width: 220px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+input:focus {
+    width: 300px;
+}
+button {
+    width: 80px;
+    height: 40px;
+    background-color: #fb9376;
+    border-radius: 100px;
+
+}
+/*button:before{*/
+/*    content: "\f002";*/
+/*    font-family: FontAwesome;*/
+/*    color: #324b4e;*/
+/*}*/
+
+
+/*second-grid d-felx align-center*/
+
+
+
+
+
+
+
+
+a.blubtn {
+    width:90px;
+    text-align:center;
+    display:block;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    border: #1071FF 1px solid;
+    color: #1071FF;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px auto;
+    transition: .5s;
+    border-radius: 0px;
+}
+a.blubtn:hover {
+    top: 5px;
+    transition: .5s;
+    color: #10FF58;
+    border: #10FF58 1px solid;
+    border-radius: 10px;
+}
+a.blubtn:active {
+    color: #000;
+    border: #1A1A1A 1px solid;
+    transition: .07s;
+    background-color: #FFF;
+}
+
+
+/* apkirpimas krasto and virsaus*/
+.over{
+    overflow: hidden;
+}

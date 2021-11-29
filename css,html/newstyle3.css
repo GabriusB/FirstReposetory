@@ -1,0 +1,96 @@
+.toolbar {
+    background-color: #afa897;
+    height: 70px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sidetoolbar {
+    height: 800px;
+    width: 200px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.mainbox {
+    height: 800px;
+    width: 1293px;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+.cat {
+    height: 350px;
+    width: 1000px;
+    background-color: darkorange;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.dog {
+    height: 350px;
+    width: 1000px;
+    background-color: #935503;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 150px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.bottomrow {
+    display: flex;
+
+
+}
+img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 100px;
+    margin: 15px;
+}
+.catfoto {
+    display: flex;
+    justify-content: flex-end;
+}
+.tooltop {
+    width: 90px;
+    height: 40px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+
+}
+.link {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin: 50px;
+    cursor: grab;
+    border-radius: 10px;
+    color: red;
+}
+
+a {
+    cursor: grab;
+    color: red;
+}
+p {
+    font-size: x-large;
+}

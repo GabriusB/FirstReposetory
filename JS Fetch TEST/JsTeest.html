@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://kit.fontawesome.com/4814f56990.jsjs" crossorigin="anonymous"></script>
+    <link rel="Stylesheet" href="JsTeest.css">
+    <script src="JsTeest.js" defer></script>
+
+</head>
+<body>
+<div>
+    <div class="d-flex ">
+        <h3>Card generator</h3>
+        <h3>Content generator</h3>
+        <h3>Card preview</h3>
+    </div>
+    <div class="container d-flex">
+        <div class="generatorplace">
+            <p>Size:</p>
+            <label id="height">Height:</label>
+            <input type="text" placeholder="pixels" size="4" name="height"><span>px</span>
+            <label id="width">Width:</label>
+            <input type="text" placeholder="pixels" size="4" name="width"><span>px</span>
+            <p>Background color:</p>
+            <button class="rose color">Color 1</button>
+            <button class="whitegreen color">Color 2</button>
+            <button class="green color">Color 3</button>
+            <button class="lightblue color">Color 4</button>
+            <button class="redtwo color">Color 5</button>
+            <br>
+            <button class="bluetwo color">Color 6</button>
+            <button class="greentwo color">Color 7</button>
+            <button class="violettwo color">Color 8</button>
+            <button class="yellowtwo color">Color 9</button>
+            <button class="rosetwo color">Color 10</button>
+
+
+            <p>Border:</p>
+            <input type="text" placeholder="width" size="5"><span>px</span>
+            <input type="text" placeholder="style" size="5">
+            <input type="text" placeholder="color" size="5"><br><br>
+            <label id="bradius">Border radius:</label>
+            <input type="text" placeholder="pixels" size="5" name="bradius"><span>px</span><br><br>
+            <label id="padding">Padding:</label>
+            <input type="text" placeholder="pixels" size="5" name="padding"><span>px</span><br><br>
+            <label id="margin">Margin:</label>
+            <input type="text" placeholder="pixels" size="5" name="margin"><span>px</span>
+
+        </div>
+
+        <div class="generatorplace">
+            <p>Category</p>
+            <input class="content" type="text" size="33">
+            <p>Subcategory</p>
+            <input class="content" type="text" size="33"><br>
+            <div class="errormessagediv">
+                <p class="error">&nbsp</p>
+            </div>
+            <button class="addcontent">Add content to card</button>
+            <br><br><br><br><br>
+            <button class="clearbutton">Clear card</button>
+        </div>
+        <div class="previewplace">
+
+        </div>
+
+    </div>
+</div>
+
+<div>
+    <div class="sub-main">
+        <button class="button-one ">Creat Card</button>
+    </div>
+</div>
+
+<div class="blockbutton">
+    <div class="sub-main ">
+        <button class="button-two">Click Me</button>
+    </div>
+</div>
+<div class="container allcards d-flex f-wrap">
+</div>
+
+</body>
+</html>

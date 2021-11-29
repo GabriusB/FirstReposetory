@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="JsTest.css">
+    <script src="JsTest.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+<div class="container  ">
+
+    <div class="Card-Generator mt-15 p-10 d-flex">
+        <div>
+            <div>
+                Height: <input type="text" placeholder="30px">
+                Width: <input type="text" placeholder="30px">
+            </div>
+            <!--Background color-->
+            <div class="mt-15">Background Color:
+                <div class="d-flex color ">
+                    <div class="clrred"></div>
+                    <div class="clrblue"></div>
+                    <div class="clrgreen"></div>
+                    <div class="clrviolet"></div>
+                    <div class="clryellow"></div>
+                    <div class="clrblack"></div>
+                    <div class="clrwhite"></div>
+                </div>
+
+                <div id="randomColor">Random Color:
+                    <button>= = = = =</button>
+                </div>
+
+            </div>
+            <!--Background color two-->
+            <div class="mt-15">Background Color:
+                <div class="d-flex color">
+                    <div class="clrredtwo"></div>
+                    <div class="clrbluetwo"></div>
+                    <div class="clrgreentwo"></div>
+                    <div class="clrviolettwo"></div>
+                    <div class="clryellowtwo"></div>
+                    <div class="clrblacktwo"></div>
+                    <div class="clrwhitetwo"></div>
+                </div>
+
+                <div>Choice Color: <input type="color"></div>
+            </div>
+            <!--Border-->
+            <div class="mt-15">Border:
+                <input type="text" placeholder="5px">
+                <select name="Style" id="">
+                    <option value="dotted">Dotted</option>
+                    <option value="dashed">Dashed</option>
+                    <option value="solid">Solid</option>
+                    <option value="double">Double</option>
+                    <option value="groove">Groove</option>
+                    <option value="ridge">Ridge</option>
+                    <option value="inset">Inset</option>
+                    <option value="outset">Outset</option>
+                </select>
+                <input type="text" placeholder="black">
+            </div>
+            <!--Border radius-->
+            <div class="mt-15">
+                <div class="d-flex fd-row">
+                    Border radius:
+                    Use "
+                    <div class="choise">%</div>
+                    " or "
+                    <div class="choise">px</div>
+                    "
+                </div>
+
+                <div>
+                    <input type="text" placeholder="20px">
+                    <input type="text" placeholder="20px">
+                    <input type="text" placeholder="20px">
+                    <input type="text" placeholder="20px">
+
+                </div>
+
+            </div>
+            <!--Padding-->
+            <div class="mt-15">
+                Padding: <input type="text" placeholder="10px">
+            </div>
+            <!--Margin-->
+            <div class="mt-15">
+                Margin: <input type="text" placeholder="20px">
+            </div>
+            <div class="main firstButton generate">
+                <div class="sub-main">
+                    <button class="button-one">Creat Card</button>
+                </div>
+            </div>
+            <!--Size-->
+
+        </div>
+        <div class="spacebox">
+asdasdsadasdasdsd
+        </div>
+
+        <div>
+            <div class="card-content d-flex a-itemC f-directionColumn Jc-Content">
+                <button class="mt-30"><h3>Category text</h3></button>
+                <button class="mt-30"><h3>Sub category text</h3></button>
+                <h2 class="Error">server error message</h2>
+                <button class="mt-30 addcontent"><h2>Add content to card</h2></button>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="resultCard">
+
+            </div>
+    <button class="appendcard"><h2>Append card</h2></button>
+        </div>
+
+    </div>
+    <div class="All-Card ">
+
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

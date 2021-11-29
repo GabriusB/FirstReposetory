@@ -1,0 +1,64 @@
+/*----------Global*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+/*----------Screen*/
+.screen{
+    width: 600px;
+    height: 700px;
+    border: 2px solid black;
+    /*box-sizing: border-box;*/
+}
+
+#newGame{
+    padding: 18px;
+    margin-left: 6em;
+    background-color: #c1c2c4;
+    display: none;
+}
+#newGame:hover{
+    background-color: lightgrey;
+}
+
+#startGameButton{
+    padding: 18px;
+    background-color: #c1c2c4;
+}
+#startGameButton:hover{
+    background-color: lightgrey;
+}
+
+#startGame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(lightgrey, white);
+}
+
+#game{
+    display: none;
+}
+#scoreBoard{
+    height: 100px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gameBox{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+.gameElement{
+    width: 118px;
+    height: 98px;
+    margin: 0px;
+    border: 1px solid black;
+    pointer-events: auto;
+}

@@ -1,0 +1,107 @@
+@media (min-width: 900px) {
+    .d-grow {
+        display: grid;
+        width: 1000px;
+        grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px
+    }
+
+    .el1 {
+        background-color: #830000;
+        grid-column: 2/7;
+        grid-row: 1/4;
+        z-index: 1;
+    }
+
+    .el2 {
+        background-color: #ffb000;
+        grid-column: 4/5;
+        grid-row: 1/6;
+        z-index: 5;
+    }
+
+    .el3 {
+        background-color: #ff0015;
+        grid-column: 3/6;
+        grid-row: 1/4;
+        z-index: 3;
+    }
+
+    .el4 {
+        background-color: #00abc9;
+        grid-column: 1/6;
+        grid-row: 2/3;
+        z-index: 4;
+    }
+
+    .el5 {
+        background-color: #0050c9;
+        grid-column: 5/7;
+        grid-row: 3/5;
+        z-index: 2;
+    }
+
+    .el6 {
+        background-color: #00c97c;
+        grid-column: 2/6;
+        grid-row: 4/6;
+        z-index: 1;
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+    .d-grow {
+        display: grid;
+        width: 1000px;
+        grid-template-columns: 150px 150px 150px 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px
+    }
+
+
+
+
+    .el3 {
+        background-color: #ff0015;
+        grid-column: 1/5;
+        grid-row: 2/3;
+        z-index: 19;
+    }
+
+    .el4 {
+        background-color: #00abc9;
+        grid-column: 3/5;
+        grid-row: 4/6;
+        z-index: 24;
+    }
+
+    .el5 {
+        background-color: #5000c9;
+        grid-column: 1/4;
+        grid-row: 1/5;
+        z-index: 10;
+    }
+
+    .el6 {
+        background-color: #00c97c;
+        grid-column: 1/5;
+        grid-row: 3/4;
+        z-index: 19;
+    }
+
+    .el1 {
+             background-color: #830000;
+             grid-column: 2/4;
+             grid-row: 2/5;
+             z-index: 23;
+         }
+
+    .el2 {
+        background-color: #ffb000;
+        grid-column: 1/4;
+        grid-row: 5/6;
+        z-index: 25;
+    }
+}

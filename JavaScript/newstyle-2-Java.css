@@ -1,0 +1,110 @@
+/*.game-box{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background-color: white;*/
+/*    z-index: 1;*/
+/*    height: 500px;*/
+/*}*/
+/*#cookie{*/
+/*    display: none;*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    border: 1px solid black;*/
+/*    border-radius: 50%;*/
+/*    background-image: linear-gradient(sandybrown, #e8d019);*/
+/*}*/
+/*#points{*/
+/*    display: none;*/
+/*}*/
+/*.overlay{*/
+/*    background-image: linear-gradient(coral, #be1e3a);*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.shop{*/
+/*    margin: 10px;*/
+/*    width: 1200px;*/
+/*    height: 800px;*/
+/*    background: #4d80e8;*/
+/*    display: none;*/
+
+/*}*/
+
+/*.shop1{*/
+/*    padding: 50px;*/
+/*    background: #e0b1a0;*/
+/*    width: 100px;*/
+/*    margin-left: 950px;*/
+/*}*/
+.m5{
+    margin: 10px;
+}
+
+body {
+    font-family: monospace;
+}
+
+#game {
+    display: none;
+}
+
+#shop {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.h100 {
+    height: 100vh;
+}
+.mb50 {
+    margin-bottom: 50px;
+}
+
+img {
+    height: 300px;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.upgrade {
+    margin: 10px;
+}
+.spinAnimation{
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,103 @@
+/*Global style*/
+
+
+.container {
+    padding: 30px;
+    background-color: #e9e9e9;
+    margin: 10px;
+}
+
+.col {
+    height: 50px;
+    width: 100px;
+    background-color: blueviolet;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.align{
+    align-self: center;
+}
+
+.lj-content{
+    justify-content: left;
+}
+
+.rj-content{
+    justify-content: right;
+}
+
+
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.colbigger{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.f-end {
+    justify-content: flex-end;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.aitems {
+    align-items: center;
+}
+
+.marg{
+    margin: 10px;
+}
+
+.F-Direct{
+    flex-direction: column-reverse ;
+}
+
+
+
+/*---------  Container dizainas-------*/
+
+
+.box {
+    height: 200px;
+    width: 100%;
+    background-color: salmon;
+    border: 1px solid black;
+}
+
+.box2 {
+    background-color: salmon;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+}
+
+.box3{
+    width: 100%;
+    background-color: salmon;
+    border: 1px solid black;
+    flex-direction: column;}
+
+.box4{
+    height: 200px;
+    width: 100%;
+    background-color: salmon;
+    border: 1px solid black;
+}

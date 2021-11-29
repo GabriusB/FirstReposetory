@@ -1,0 +1,65 @@
+div{
+    margin:10px;
+    height: 50px;
+    width: 50px;
+}
+
+.ilgas{
+    padding:50px;
+    background-color: #e5c0c0;
+}
+
+.ilgas:hover{
+    width: 1000px;
+    background-color: #9d6b6b;
+    transition: all 4s ease-out;
+
+}
+
+.ratas{
+    padding: 50px;
+    background-color: #602f2f;
+}
+
+.ratas:hover{
+    border-radius: 50%;
+    transition: all 4s ease-out;
+
+}
+
+.nematomas{
+    padding: 50px;
+    background-color: #51e54c;
+}
+
+.nematomas:hover{
+    opacity: 10%;
+    transition: all 1s ease-out;
+
+
+}
+
+.spinas{
+    padding: 50px;
+    background-color: #d6e54c;
+}
+
+.spinas:hover {
+    transform:rotate(0deg);
+
+    transform:rotate(360deg);
+
+    transition: all 4s ease-out;
+
+}
+
+.didesnis{
+    padding: 50px;
+    background-color: #4ce593;
+}
+
+.didesnis:hover{
+    transform: scale(1.5);
+    transition: all 4s ease-out;
+    background-color: #e54c4c;
+}

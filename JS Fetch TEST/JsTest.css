@@ -1,0 +1,300 @@
+body {
+    font-size: 22px;
+}
+.d-flex {
+    display: flex;
+}
+.a-itemC{
+    align-items: center;
+}
+.f-directionColumn{
+    flex-direction: column;
+}
+.Jc-Content{
+    justify-content: space-evenly;
+}
+.spacebox{
+    width: 200px;
+    background: white;
+    border: 1px solid black;
+    opacity: 0%;
+}
+.resultCard{
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 100px;
+}
+.appendcard{
+    margin-left: 160px;
+
+}
+.fd-row {
+    flex-direction: row;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-30{
+    margin-top: 15px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.box {
+    background: #0B1B48;
+    height: 100px;
+    width: 100px;
+    border-radius: 20% 20% 100% 100%;
+}
+
+.Card-Generator {
+    height: 530px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+.card-content{
+    height: 530px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+.All-Card{
+    height: 530px;
+    width: 1000px;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-top: 150px;
+}
+/*GLOBAL*/
+input {
+    border: 1px solid black;
+    size: portrait;
+    width: 60px;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 5px;
+    margin: 2px;
+}
+
+select {
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+/*---*/
+.choise {
+    color: #8a0000;
+}
+
+
+/*COLOROS*/
+.clrred {
+    width: 50px;
+    height: 25px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrblue {
+    width: 50px;
+    height: 25px;
+    background: #006fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrgreen {
+    width: 50px;
+    height: 25px;
+    background: #11ff00;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrviolet {
+    width: 50px;
+    height: 25px;
+    background: #dd00ff;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clryellow {
+    width: 50px;
+    height: 25px;
+    background: #ffea00;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrwhite {
+    width: 50px;
+    height: 25px;
+    background: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrblack {
+    width: 50px;
+    height: 25px;
+    background: #282828;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*--*/
+
+/*COLOR TWO*/
+.clrredtwo {
+    width: 50px;
+    height: 25px;
+    background: rgb(177, 48, 48);
+    background: linear-gradient(128deg, rgba(177, 48, 48, 1) 24%, rgba(237, 32, 32, 1) 50%, rgba(179, 42, 42, 1) 76%);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrbluetwo {
+    width: 50px;
+    height: 25px;
+    background: rgb(4, 1, 191);
+    background: linear-gradient(128deg, rgba(4, 1, 191, 1) 13%, rgba(4, 122, 204, 1) 50%, rgba(4, 1, 191, 1) 87%);
+    border: 1px solid black;
+
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrgreentwo {
+    width: 50px;
+    height: 25px;
+    background: rgb(31, 140, 3);
+    background: linear-gradient(128deg, rgba(31, 140, 3, 1) 13%, rgba(28, 223, 2, 1) 50%, rgba(31, 140, 3, 1) 87%);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrviolettwo {
+    width: 50px;
+    height: 25px;
+    background: rgb(126, 0, 145);
+    background: linear-gradient(128deg, rgba(126, 0, 145, 1) 13%, rgba(221, 0, 255, 1) 50%, rgba(126, 0, 145, 1) 87%);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clryellowtwo {
+    width: 50px;
+    height: 25px;
+    background: rgb(158, 87, 5);
+    background: linear-gradient(128deg, rgba(158, 87, 5, 1) 0%, rgba(255, 175, 0, 1) 49%, rgba(158, 87, 5, 1) 100%);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrwhitetwo {
+    width: 50px;
+    height: 25px;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(70, 70, 70, 1) 100%);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clrblacktwo {
+    width: 50px;
+    height: 25px;
+    background: rgb(40, 40, 40);
+    background: linear-gradient(128deg, rgba(40, 40, 40, 1) 13%, rgba(116, 116, 116, 1) 50%, rgba(40, 40, 40, 1) 87%);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*---*/
+/*//////////////////////////////////*/
+
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    padding-top: 500px;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #2ecc71;
+}
+
+.main {
+    width: 100%;
+}
+
+.sub-main {
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+}
+
+.button-one {
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 0 0 100px;
+}
+
+
+.button-one {
+    padding: 20px 60px;
+    outline: none;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #95a5a6;
+}
+
+.button-one:hover {
+    background-color: #2ecc71;
+}
+
+.button-one:active {
+    background-color: #2ecc71;
+    box-shadow: 0 5px #95a5a6;
+    transform: translateY(6px);
+}

@@ -1,0 +1,30 @@
+.firstcoob{
+    background-color: brown;
+    height: 800px;
+    width: 800px;
+    display: block;
+    
+}
+
+.apvalus{
+    background-color: #e54c4c;
+    height: 700px;
+    margin: 20px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.mt50{
+    margin-top: 50px;
+}
+
+img{
+    max-height: 200px;
+    font-max-size: 200px;
+    margin-top: 90px;
+}
+
+
+.round{
+    border-radius: 50px;
+}

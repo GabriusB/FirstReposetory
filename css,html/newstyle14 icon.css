@@ -1,0 +1,91 @@
+.icon{
+    mix-blend-mode: multiply;
+    transition: all 1s ease-out;
+
+    position: absolute;
+    top: 487px;
+    left: 162px;
+    height: 113px;
+    width: 81px;
+    background-position: 123px 140px;
+    background-size: 1000px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+}
+
+.icon2{
+    mix-blend-mode: multiply;
+    transition: all 1s ease-out;
+
+    position: absolute;
+    top: 371px;
+    left: 520px;
+    height: 116px;
+    width: 89px;
+    background-position: -38px -359px;
+    background-size: 1000px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+}
+
+
+.icon3{
+    mix-blend-mode: multiply;
+    transition: all 1s ease-out;
+    position: absolute;
+    top: 500px;
+    left: 809px;
+    height: 79px;
+    width: 117px;
+    background-position: 309px -377px;
+    background-size: 1000px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+}
+
+.icon4{
+    mix-blend-mode: multiply;
+    transition: all 1s ease-out;
+    position: absolute;
+    top: 623px;
+    left: 439px;
+    height: 119px;
+    width: 69px;
+    background-position: 453px -25px;
+    background-size: 1000px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+}
+
+.icon5{
+    transition: all 1s ease-out;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 200px;
+    left: 349px;
+    height: 113px;
+    width: 81px;
+    background-position: -209px 306px;
+    background-size: 1000px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+}
+
+.icon5:hover{
+    opacity: 10%;
+    transition: all 1s ease-out;
+}
+
+.icon4:hover{
+    opacity: 10%;
+    transition: all 1s ease-out
+}
+
+.icon3:hover{
+    opacity: 10%;
+    transition: all 1s ease-out
+}
+.icon2:hover{
+    opacity: 10%;
+    transition: all 1s ease-out
+}
+
+.icon:hover{
+    opacity: 10%;
+    transition: all 1s ease-out
+}

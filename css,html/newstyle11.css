@@ -1,0 +1,119 @@
+i {
+    padding: 50px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.icona :hover middle{
+    display: none;
+}
+
+
+
+
+.back-center{
+    justify-content: right;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.toolbar {
+    background-color: #f6f6f6;
+}
+
+.toolbar img {
+    height: 50px;
+    width: 80px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    height: 400px;
+    background-image: url("https://mythsandmountains.com/wp-content/uploads/2018/10/myths-and-mountains-and-beyond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    background: rgb(253,45,45);
+    background: linear-gradient(0deg, rgba(253,45,45,0.5158438375350141) 0%, rgba(58,71,179,0.15449929971988796) 50%, rgba(253,45,45,0.4990371148459384) 100%);
+}
+
+
+.card img {
+    max-height: 200px;
+}
+
+.cardsWrapper {
+    background-color: gold;
+}
+
+.d-none{
+    display: none;
+}
+
+.iconele1{
+    transition: all 1s ease-out;
+}
+.iconele1:hover{
+    color: #62ee41;
+}
+
+.iconele2{
+    transition: all 1s ease-out;
+}
+
+.iconele2:hover{
+    transform: scale(1.5);
+}
+
+.iconele3{
+    transition: all 1s ease-out;
+}
+
+.iconele3:hover {
+    transform:rotate(0deg);
+
+    transform:rotate(360deg);
+}
+
+.iconele4{
+    transition: all 1s ease-out;
+
+}
+
+.iconele4:hover {
+    padding: 100px;
+    margin: 100px;
+}
+
+
+
+.icona:hover .middle {
+display: none;
+    transition: 1s;
+}
+
+
+
+

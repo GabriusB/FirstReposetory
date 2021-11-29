@@ -1,0 +1,16 @@
+#Container{
+    width: 500px;
+    background: #888888;
+    display: flex;
+    align-items: center;
+
+
+}
+
+input{
+    margin: 20px;
+    height: 20px;
+    width: 100px;
+
+}
+

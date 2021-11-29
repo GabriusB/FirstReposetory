@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card Generator</title>
+    <link rel="stylesheet" href="JsTest2.css">
+    <script src="JsTest2.js" defer></script>
+</head>
+<body>
+
+<div class="Container d-flex js-sp-around">
+    <div class="cardGenerator">
+        <h1>Card Generator</h1>
+
+        <h2>Size</h2>
+        <div class="size d-flex al-center js-sp-btw w250">
+            <h3>Height:</h3>
+            <input type="number" min="0" placeholder="">
+            <h3>Width:</h3>
+            <input type="number" min="0" placeholder="">
+        </div>
+
+        <h2>Background Color</h2>
+        <div class="bgColor d-flex js-sp-btw w250">
+            <div class="bgRed"></div>
+            <div class="bgGreen"></div>
+            <div class="bgBlue"></div>
+            <div class="bgViolet"></div>
+
+        </div>
+        <div class="d-flex">
+            <div class="clrredtwo"></div>
+            <div class="clrbluetwo"></div>
+            <div class="clrgreentwo"></div>
+            <div class="clrviolettwo"></div>
+            <div class="clryellowtwo"></div>
+            <div class="clrblacktwo"></div>
+            <div class="clrwhitetwo"></div>
+        </div>
+        <h2>Border</h2>
+        <div class="borderInputs">
+            <input type="number" min="0" placeholder="1">
+            <input type="text" placeholder="solid">
+            <input type="text" placeholder="black">
+        </div>
+
+        <div class="borderRadius d-flex al-center js-sp-btw w250">
+            <h2>Border radius:</h2>
+            <input class="w50 h15" type="number" min="0" max="100" placeholder="">
+        </div>
+
+        <div class="padding d-flex al-center js-sp-btw w250">
+            <h2>Padding:</h2>
+            <input class="w50 h15" min="0"  type="number" placeholder="10">
+        </div>
+
+        <div class="margin d-flex al-center js-sp-btw w250">
+            <h2>Margin:</h2>
+            <input class="w50 h15" min="0"  type="number" placeholder="10">
+        </div>
+        <button class="createButton">Create Card</button>
+    </div>
+    <div class="contentGenerator">
+        <h1>Content Generator</h1>
+        <div class="category w250">
+            <h2>Category:</h2>
+            <input class="w250"  type="text" placeholder="">
+        </div>
+        <div class="subCategory w250">
+            <h2>Sub Category:</h2>
+            <input class="w250"  type="text" placeholder="">
+        </div>
+        <h3 class="errorMessage"></h3>
+        <button class="contentButton">Add Content To card</button>
+    </div>
+    <div class="cardPreview mt15">
+        <h1>Card preview area</h1>
+        <button class="galleryButton mr20">Add To Gallery</button>
+    </div>
+</div>
+<div class="d-flex js-cont-cntr"><h1>Card gallery</h1></div>
+
+<div class="appendedCards d-flex js-cont-cntr mr20 ">
+
+    <div class="cardGallery"></div>
+</div>
+
+</body>
+</html>

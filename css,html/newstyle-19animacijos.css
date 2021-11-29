@@ -1,0 +1,280 @@
+.boxx{
+    height: 300px;
+    border: 10px double black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background: #000000;
+    animation-name: bigger11;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.box2{
+    height: 200px;
+    width: 400px;
+    background: #62ee41;
+    animation-name: bigger22;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+.box3{
+    height: 100px;
+    width: 200px;
+    background: #ffffff;
+    border: 0px double black;
+    animation-name: bigger33;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+.box33{
+    height: 100px;
+    width: 200px;
+    background: #ab6060;
+    border:double black;
+
+}
+
+
+.box4{
+    height: 200px;
+    width: 200px;
+    background: #62ee41;
+    animation-name: bigger44;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.box55 {
+height: 200px;
+width: 200px;
+background: #62ee41;
+    border-radius: 50%;
+
+
+}
+
+.box5 {
+    height: 200px;
+    width: 200px;
+    background: #4164ee;
+    animation-name: bigger55;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+.box6 {
+    height: 200px;
+    width: 200px;
+    background: #4164ee;
+    animation-name: bigger66;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.box7 {
+    height: 200px;
+    width: 200px;
+    background: #4164ee;
+    animation-name: bigger77;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.box8 {
+    height: 200px;
+    width: 200px;
+    background: #4164ee;
+    animation-name: bigger88;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.p10 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.d-flex{
+    display: flex;
+
+}
+
+.j-cont{
+    justify-content: center;
+}
+
+.a-cent{
+    align-items: center;
+
+}
+
+@keyframes bigger11 {
+    0% {
+        border-radius: 0%;
+
+        background: white;
+    }
+    35% {
+        background: orangered;
+        border-radius: 80%;
+    }
+    50% {
+        background: #22b702;
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 0%;
+        background: #0B1B48;
+    }
+}
+
+
+
+@keyframes bigger22 {
+    0% {
+        width: 20px;
+        height: 20px;
+    }
+    25% {
+        width: 400px;
+        height: 200px;
+    }
+
+    60% {
+        height: 300px;
+        width: 200px;
+    }
+    100% {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@keyframes bigger33 {
+    0% {
+        width: 10px;
+        background: #ffffff;
+
+
+    }
+    25% {
+        width: 50px;
+
+        background: #62ee41;
+    }
+
+    60% {
+        width: 100px;
+
+        background: #ee4141;
+    }
+    100% {
+        width: 200px;
+
+        background: #910000;
+    }
+
+
+}
+
+
+
+@keyframes bigger55 {
+    0% {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    25% {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+
+    }
+
+    60% {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+
+    }
+    100% {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+
+    }
+
+}
+
+
+
+@keyframes bigger66 {
+    0%,100% {
+        width: 100px;
+        height: 150px;
+    }
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+
+    50% {
+        width: 80px;
+        height: 80px;
+
+    }
+
+}
+
+@keyframes bigger77 {
+    0%,100% {
+        width: 80px;
+        height: 80px;
+    }
+    25% {
+        width: 100px;
+        height: 150px;
+    }
+
+    50% {
+        width: 80px;
+        height: 80px;
+
+    }
+
+}
+
+@keyframes bigger88 {
+    0%,100% {
+        width: 80px;
+        height: 80px;
+    }
+    25% {
+        width: 80px;
+        height: 80px;
+    }
+
+    50% {
+        width: 100px;
+        height: 150px;
+
+    }
+
+}
+
+

@@ -1,0 +1,39 @@
+.icon {
+    mix-blend-mode: multiply;
+    transition: all 1s ease-out;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 113px;
+    width: 164px;
+    background-position: -10px 169px;
+    background-size: 1000px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.d-flex{
+    display: flex;
+}
+.spc-betw{
+    justify-content: space-between;
+}
+.a-t{
+    align-items: center;
+}
+
+.diva{
+    width: 800px;
+
+}
+
+button{
+    background: #62ee41;
+    border-radius: 20%;
+
+}

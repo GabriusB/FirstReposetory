@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+}
+
+.m10{
+    margin: 10px;
+}
+
+.toolbar{
+    grid-area: toolbar;
+    background-color: #dededc;
+}
+.header{
+    grid-area: header;
+    background-color: #dededc;
+}
+.header2{
+    grid-area: header2;
+    background-color: #3f3f3f;
+}
+.main{
+    grid-area: main;
+    background-color: #000072;
+}
+.main2{
+    grid-area: main2;
+    background-color: #791414;
+}
+
+
+.footer{
+    grid-area: footer;
+    background-color: #621577;
+}
+.conteiner{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+    grid-template-areas: "toolbar toolbar";
+}
+
+.conteiner2{
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "toolbar header2";
+}
+
+.conteiner3{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 35% 15% 35% 15%;
+    grid-template-areas: "toolbar toolbar toolbar"
+                        "main2 main2 main2"
+                        "footer footer footer"
+                        "main2 main2 main2";
+}
+
+.conteiner4{
+    height: 1px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 35% 15% 35% 15%;
+    grid-template-areas: "footer footer footer"
+                        "main2 main2 main2"
+                        "footer footer footer"
+                        "main2 main2 main2";
+}

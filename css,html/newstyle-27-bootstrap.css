@@ -1,0 +1,454 @@
+body {
+    background: rgb(6,11,54);
+    background: linear-gradient(90deg, rgba(6,11,54,1) 0%, rgba(58,71,179,1) 50%, rgba(6,11,54,1) 100%);}
+@media (max-width: 1920px) {
+
+    .-col-lg-1 {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+
+    .-col-md-1 {
+        display: none;
+    }
+}
+@media (max-width: 460px) {
+
+    -col-sm-1{
+        display: none;
+    }
+}
+
+/*BOX*/
+
+
+
+.img1  {
+    height: 300px;
+    width: 100%;
+}
+
+.img2  {
+    height: 300px;
+    width: 100%;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+
+
+
+/*================================virsus==============================*/
+/*================================virsus==============================*/
+/*================================virsus==============================*/
+
+
+.jc-bet {
+    justify-content: space-between;
+}
+.d-felx {
+    display: flex;
+}
+.toolbar {
+    grid-area: toolbar;
+    margin-inline: 20px;
+    border-collapse: collapse;
+}
+
+ul {
+    list-style: none;
+}
+
+.topmenu {
+    background: #ffffff;
+    border-radius: 200px;
+}
+
+.topmenu a {
+    text-decoration: none;
+    display: block;
+    transition: .4s ease-in-out;
+}
+
+.topmenu>li>a {
+    padding: 10px;
+    color: #767676;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.topmenu li a:hover {
+    color: #c0a97a;
+}
+
+.submenu li a {
+    border-bottom: 1px solid #efefef;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media(max-width:599px) {
+    .topmenu>li>a {
+        padding: 15px 20px;
+    }
+    .submenu li a {
+        padding: 10px 20px;
+        margin: 0 20px;
+    }
+}
+
+@media(min-width: 600px) {
+    .topmenu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .topmenu>li {
+        position: relative;
+    }
+    .topmenu>li:after {
+        position: absolute;
+        right: 0;
+        width: 1px;
+        height: 12px;
+        background: #d2d2d2;
+        top: 24px;
+        box-shadow: 4px -2px 0 #d2d2d2;
+        transform: rotate(30deg);
+    }
+    .topmenu>li:last-child:after {
+        background: none;
+        box-shadow: none;
+    }
+    .submenu {
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        width: 210px;
+        margin-left: -105px;
+        background: #fafafa;
+        border: 1px solid #ededed;
+        z-index: 3;
+        visibility: hidden;
+        opacity: 0;
+        transform: scale(.8);
+        transition: .4s ease-in-out;
+    }
+    .topmenu>li:hover .submenu {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+    .submenu li a {
+        text-align: center;
+        padding: 10px 0;
+        margin: 0 10px;
+        margin-right: 40px;
+    }
+}
+
+
+/*===============================CARD========================*/
+/*===============================CARD========================*/
+/*===============================CARD========================*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900');
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    -webkit-box-sizing: border-box;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*body {*/
+/*    font-size: 14px;*/
+/*    font-family: 'Lato', sans-serif;*/
+/*    background-color: #181924;*/
+/*    padding: 5%;*/
+/*}*/
+
+img {width: 100%;}
+a { text-decoration: none; display: block;}
+.crd_dsgn {
+    width: 300px;
+    border:1px solid #c2986b;
+    height: 260px;
+    float: left;
+    margin: 0 30px 40px 0;
+    transition: all 0.5s ease-in-out 0s;
+}
+.crd_dsgn  a { display: block; }
+.crd_img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin: -10px 0 0 -10px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.crd_img img {
+    height: 100%;
+    transform: scale(1.0);
+    transition: all 0.9s ease-in-out 0s;
+}
+.crd_hdng h5 {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.crd_dsgn:hover .crd_img { margin: 0;}
+.crd_dsgn:hover .crd_hdng h5 { margin-top: 5px; }
+.crd_dsgn:hover { background-color: #c2986b; border-width: 3px;}
+.crd_dsgn:hover .crd_img img { transform: scale(1.5); }
+
+
+/*bandau*/
+/*bandau*/
+/*bandau*/
+
+
+/*bandau*/
+@keyframes tonext {
+    75% {
+        left: 0;
+    }
+    95% {
+        left: 100%;
+    }
+    98% {
+        left: 100%;
+    }
+    99% {
+        left: 0;
+    }
+}
+
+@keyframes tostart {
+    75% {
+        left: 0;
+    }
+    95% {
+        left: -300%;
+    }
+    98% {
+        left: -300%;
+    }
+    99% {
+        left: 0;
+    }
+}
+
+@keyframes snap {
+    96% {
+        scroll-snap-align: center;
+    }
+    97% {
+        scroll-snap-align: none;
+    }
+    99% {
+        scroll-snap-align: none;
+    }
+    100% {
+        scroll-snap-align: center;
+    }
+}
+
+/*body {*/
+/*    !*max-width: 1.5rem;*!*/
+/*!*    margin: 0 auto;*!*/
+/*    padding: 0 1.25rem;*/
+/*    font-family: 'Lato', sans-serif;*/
+/*}*/
+
+* {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent; /* thumb and track color */
+    scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+}
+
+* {
+    -ms-overflow-style: none;
+}
+
+ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    position: relative;
+    padding-top: 20%;
+    filter: drop-shadow(0 0 10px #0003);
+    perspective: 100px;
+}
+
+.carousel__viewport {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel__slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    background-color: #f99;
+    counter-increment: item;
+}
+
+.carousel__slide:nth-child(even) {
+    background-image: url("https://picsum.photos/990/280") ;
+}
+
+.carousel__slide:before {
+    content: counter(item);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-40%,70px);
+    color: #fff;
+    font-size: 2em;
+}
+
+.carousel__snapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+}
+
+@media (hover: hover) {
+    .carousel__snapper {
+        animation-name: tonext, snap;
+        animation-timing-function: ease;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    .carousel__slide:last-child .carousel__snapper {
+        animation-name: tostart, snap;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel__snapper {
+        animation-name: none;
+    }
+}
+
+.carousel:hover .carousel__snapper,
+.carousel:focus-within .carousel__snapper {
+    animation-name: none;
+}
+
+.carousel__navigation {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.carousel__navigation-list,
+.carousel__navigation-item {
+    display: inline-block;
+}
+
+.carousel__navigation-button {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #333;
+    background-clip: content-box;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+    transition: transform 0.1s;
+}
+
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+    position: absolute;
+    top: 0;
+    margin-top: 37.5%;
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 0;
+    outline: 0;
+}
+
+.carousel::before,
+.carousel__prev {
+    left: -1rem;
+}
+
+.carousel::after,
+.carousel__next {
+    right: -1rem;
+}
+
+.carousel::before,
+.carousel::after {
+    content: '';
+    z-index: 1;
+    background-color: #333;
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-align: center;
+    pointer-events: none;
+}
+
+.carousel::before {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.carousel::after {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+
+
+
+https://picsum.photos/280/280

@@ -1,0 +1,121 @@
+body{
+    margin-top:300px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+}
+button{
+    height: 80px;
+    width: 180px;
+
+}
+.selected {
+    border: 2px solid #acf159;
+}
+
+/*.container{*/
+/*    width: 1000px;*/
+/*    border: 1px solid black;*/
+/*}*/
+.box1{
+    background-image: url("https://a.d-cd.net/db45du-960.jpg");
+    width: 250px;
+    height: 150px;
+    background-size: 140%;
+    background-position: 250px 140px;
+    /*border: 1px solid black;*/
+    transform: rotate(-90deg);
+    position: relative; top:-150px; left: 100px;
+    transition: 1s;
+}
+
+.box1:hover{
+    -webkit-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    -moz-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+}
+.box2{
+    background-image: url("https://a.d-cd.net/db45du-960.jpg");
+    width: 250px;
+    height: 110px;
+    background-size: 140%;
+    background-position: 273px 255px;
+    transform: rotate(-90deg);
+    position: relative; top:-150px; left: 100px;
+    transition: 1s;
+
+}
+.box2:hover{
+    -webkit-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    -moz-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+}
+.box3{
+    background-image: url("https://a.d-cd.net/db45du-960.jpg");
+    width: 250px;
+    height: 150px;
+    background-size: 150%;
+    background-position: 250px 415px;
+    transform: rotate(-90deg);
+    position: relative; top:-150px; left: 100px;
+    transition: 1s;
+
+}
+.box3:hover{
+    -webkit-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    -moz-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+}
+.box11{
+    background-image: url("https://a.d-cd.net/db45du-960.jpg");
+    width: 250px;
+    height: 150px;
+    background-size: 150%;
+    background-position: 270px 150px;
+    /*border: 1px solid black;*/
+    transform: rotate(90deg);
+    position: relative; top:150px; left: 100px;
+    transition: 1s;
+
+}
+.box11:hover{
+    -webkit-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    -moz-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+}
+
+.box22{
+    background-image: url("https://a.d-cd.net/db45du-960.jpg");
+    width: 250px;
+    height: 110px;
+    background-size: 150%;
+    background-position: 295px 270px;
+    transform: rotate(90deg);
+    position: relative; top:190px; left: 100px;
+    transition: 1s;
+
+}
+.box22:hover{
+    -webkit-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    -moz-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+}
+.box33{
+    background-image: url("https://a.d-cd.net/db45du-960.jpg");
+    width: 250px;
+    height: 150px;
+    background-size: 150%;
+    background-position: 250px 420px;
+    transform: rotate(90deg);
+    position: relative; top:150px; left: 100px;
+    transition: 1s;
+}
+.box33:hover{
+    -webkit-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    -moz-box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+    box-shadow: 0px 0px 51px 0px rgba(210, 0, 0, 0.27) inset;
+}
+
